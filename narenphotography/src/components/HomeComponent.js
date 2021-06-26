@@ -1,8 +1,14 @@
 import  React  from 'react';
+import { Jumbotron } from 'reactstrap';
 
 function Home(props) {
     return (
-        <h4> Home Page </h4>
+        <div>
+            
+            <div className="banner-image">
+                <img src="assets/images/banner_image.jpg" alt="Logo" />
+            </div>
+        </div>
     );
 }
 
