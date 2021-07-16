@@ -2,13 +2,13 @@ export const BUSES =
     [
         {
         id: 0,
-        busId: 0,
+        
         name:'Hotel Raja',
         image: '/assets/images/Raja_1.png',                   
         },
         {
         id: 1,
-        busId: 1,
+        
         name:'SCP',
         image: '/assets/images/SCP_1.png', 
         },

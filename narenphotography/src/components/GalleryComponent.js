@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 
     function RenderBusItem({ bus, onClick }) {
         return(
-            <Link to={`menu/${bus.id}`} >
+            <Link to={`gallery/${bus.id}`} >
             <Card>
                 <CardImg width="100%" src={bus.image} alt={bus.name} />
                 <CardBody>
