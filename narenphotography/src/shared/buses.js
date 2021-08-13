@@ -27,8 +27,8 @@ export const BUSES =
 		{
         id: 4,
         busId: 4,
-        name:'APS',
-        image: '/assets/images/APS_1.jpg', 
+        name:'AMVJ',
+        image: '/assets/images/AMVJ/AMVJ_1.png', 
         },
 		{
         id: 5,
@@ -39,20 +39,20 @@ export const BUSES =
 		{
         id: 6,
         busId: 6,
-        name:'Girimurugan',
-        image: '/assets/images/Giri_1.jpg', 
+        name:'ASM',
+        image: '/assets/images/ASM/ASM_1.png', 
         },
 		{
         id: 7,
         busId: 7,
-        name:'SK Nathan',
-        image: '/assets/images/SKNathan_1.jpg', 
+        name:'ANAND',
+        image: '/assets/images/ANAND/ANAND_1.png', 
         },
 		{
         id: 8,
         busId: 8,
-        name:'SKP',
-        image: '/assets/images/SKP_1.jpg', 
+        name:'JAISK',
+        image: '/assets/images/JAISK/JAISK_1.png', 
         },
 		{
         id: 9,
@@ -63,32 +63,32 @@ export const BUSES =
 		{
         id: 10,
         busId: 10,
-        name:'VBS',
-        image: '/assets/images/VBS_1.jpg', 
+        name:'RKG',
+        image: '/assets/images/RKG/RKG_1.jpg', 
         },
 		{
         id: 11,
         busId: 11,
-        name:'GV',
+        name:'SAT',
         image: '/assets/images/GV_1.jpg', 
         },
 		{
         id: 12,
         busId: 12,
-        name:'SFT',
-        image: '/assets/images/SFT_1.jpg', 
+        name:'SMR',
+        image: '/assets/images/SMR/SMR_1.jpeg', 
         },
 		{
         id: 13,
         busId: 13,
-        name:'NKS',
-        image: '/assets/images/NKS_1.jpg', 
+        name:'GVD',
+        image: '/assets/images/GVD/GVD_1.jpeg', 
         },
 		{
         id: 14,
         busId: 14,
-        name:'SwamyIyappa',
-        image: '/assets/images/SWIP_1.jpg', 
+        name:'KMS',
+        image: '/assets/images/KMS/KMS_1.jpg', 
         }
 		
     ];
