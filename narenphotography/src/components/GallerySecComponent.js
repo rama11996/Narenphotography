@@ -27,9 +27,9 @@ function RenderDetails ({busdetails}) {
     if (busdetails != null) {
         const details = busdetails.map(busdetail => {
             return (
-                <div className="col-12">
+                <div className="col-12 col-md-4 gallery-sec">
                     <Card>
-                    <CardImg width="100%" src={busdetail.image} alt={busdetail.name} />
+                         <CardImg width="100%" src={busdetail.image} alt={busdetail.name} />
                     </Card>
                      
                 
@@ -38,13 +38,10 @@ function RenderDetails ({busdetails}) {
         } )
 
         return(
-            
-                
-                <div className="gallery-images">
-                    {details}
-                </div>
-
-            
+            <div className="row">
+                {details}  
+            </div>
+                              
         )
     }
     else {
@@ -77,9 +74,9 @@ function RenderDetails ({busdetails}) {
                     </div>                
                 </div>
             
-                <div className='col-sm-3 col-md-3'>
+             
                   <RenderDetails busdetails= {props.busdetails} /> 
-                </div>
+                
             </div>
         )
     }

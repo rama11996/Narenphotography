@@ -22,7 +22,7 @@ import { Link } from 'react-router-dom';
 
         const gallery = props.buses.map((bus) => {
             return (
-                <div key={ bus.id } className="col-12 col-md-4">    
+                <div key={ bus.id } className="col-12 col-md-4 gallery-image">    
                     <RenderBusItem bus={bus} />
                 </div>
             );

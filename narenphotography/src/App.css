@@ -74,19 +74,22 @@ li {
   flex-direction: row;
   margin: 0 5rem;
 }
-.about-left, .about-right  {
-  width: 50%;
-  
-}
-.about-left img{
+.left-half img{
   width: 100%;
 }
-.about-right {
-  background-color:  #f0f3f6;
+
+
+
+.card .card-body {
+  position: relative;
+  top: -10rem;
 }
-.about-right {
-  padding: 5rem;
+.gallery-image .card-img{
+  height: 20rem;
 }
-.about-right p {
-  width: 30rem;
+.gallery-image .card, .gallery-sec .card {
+  border: none;
+}
+.gallery-sec .card-img{
+  height: 20rem;
 }
