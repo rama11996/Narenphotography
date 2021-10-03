@@ -5,11 +5,13 @@ import Gallery from './GalleryComponent';
 import GalleryDetails from './GallerySecComponent'
 import Footer from './FooterComponent';
 import Home from './HomeComponent';
+import Contact from './ContactComponent';
 import {BUSES} from '../shared/buses';
 import { BUSESDETAIL } from '../shared/busdetails';
 import { Switch, Route, Redirect, withRouter } from 'react-router-dom'
 import { connect } from 'react-redux';
 import '../App.css';
+
 
 
 const mapStateToProps = state => {
@@ -48,7 +50,7 @@ class Main extends Component {
                 <Route exact path='/about-us' component={() => <About /> } />
                 <Route exact path="/Gallery" component={() => <Gallery  buses={this.props.buses }/> } />
                 <Route path="/gallery/:busId" component={BusWithId} />
-                <Route path="/Contactus" component={HomePage} />
+                <Route path="/Contactus" component={() => <Contact />} />
                 <Route path="/" component={HomePage} />
                 <Redirect to="/" />
             </Switch> 
