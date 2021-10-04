@@ -7,7 +7,7 @@ class About extends Component {
             <div className="container">
                 <div className="row">
                     <div class="left-half col-md-6">
-                        <img src="assets/images/citilink-image.jpg" alt="Logo" />
+                        <img src="/assets/images/Citi_Link/Citi_1.jpeg" alt="Banner-image" />
                     </div>
                     <div class="right-half col-md-6">
                         <h2> About Us</h2>

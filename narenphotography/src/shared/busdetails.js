@@ -56,7 +56,7 @@ export const BUSESDETAIL =
         id: 8,
         busId: 2,
         name:'MSM',
-        image: '/assets/images/MSM/MSM_1.png',                   
+        image: '/assets/images/MSM/MSM_1.jpg',                   
     },
     {
         id: 9,
@@ -281,25 +281,25 @@ export const BUSESDETAIL =
         id: 44,
         busId: 11,
         name:'SAT',
-        image: '/assets/images/SAT/SAT_1.jpg',                   
+        image: '/assets/images/SAT/SAT_1.png',                   
     },
     {
         id: 45,
         busId: 11,
         name:'SAT',
-        image: '/assets/images/SAT/SAT_2.jpg',                   
+        image: '/assets/images/SAT/SAT_2.png',                   
     },
     {
         id: 46,
         busId: 11,
         name:'SAT',
-        image: '/assets/images/SAT/SAT_3.jpg',                   
+        image: '/assets/images/SAT/SAT_3.png',                   
     },
     {
         id: 47,
         busId: 11,
         name:'SAT',
-        image: '/assets/images/SAT/SAT_4.jpg',                   
+        image: '/assets/images/SAT/SAT_4.png',                   
     },
     
     {
@@ -368,7 +368,7 @@ export const BUSESDETAIL =
         id: 58,
         busId: 14,
         name:'KMS',
-        image: '/assets/images/KMS/KMS_3.jpg',                   
+        image: '/assets/images/KMS/KMS_3.jpeg',                   
     },
     {
         id: 59,

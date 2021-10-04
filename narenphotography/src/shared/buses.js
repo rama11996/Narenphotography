@@ -70,7 +70,7 @@ export const BUSES =
         id: 11,
         busId: 11,
         name:'SAT',
-        image: '/assets/images/GV_1.jpg', 
+        image: '/assets/images/SAT/SAT_1.png', 
         },
 		{
         id: 12,
