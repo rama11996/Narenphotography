@@ -65,7 +65,7 @@ function RenderDetails ({busdetails}) {
                  <div className="row">
                     <Breadcrumb>
 
-                        <BreadcrumbItem><Link to="/menu">Menu</Link></BreadcrumbItem>
+                        <BreadcrumbItem><Link to="/gallery">Gallery</Link></BreadcrumbItem>
                         <BreadcrumbItem active>{props.bus.name} </BreadcrumbItem>
                     </Breadcrumb>
                     <div className="col-12">
